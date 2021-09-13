@@ -8,7 +8,7 @@ body {
 /* search  */
 
 .search-fields {
-	background-color: rgb(231, 224, 224);
+	background-color: rgb(192, 220, 224);
 	padding: 10px;
 }
 
@@ -17,13 +17,17 @@ body {
 }
 
 .search-box {
-	border-radius: 10px;
 	margin: auto;
 	margin-top: 50px;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	padding-bottom: 10px;
+}
+#search-btn{
+	/* margin-left: -80px; */
+	background-color: black;
+	border:none
 }
 
 
@@ -69,12 +73,13 @@ body {
 	width: 350px;
 	border: 1px solid rgb(22, 6, 4);
 	padding: 10px;
-	box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.425);
+	box-shadow: 10px 10px 20px rgb(128, 128, 128);
 	background:linear-gradient(rgb(148, 210, 247),rgb(32, 132, 190));
 	border-radius: 5px;
 	margin-right: 30px;
 	position: fixed;
 	font-weight: bold;
+	
 }
 
 .cart-main {
